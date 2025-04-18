@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0c0101;
+}
+
+.hero {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(-60px + 50vh);
+  text-align: center;
+  position: relative;
+}
+
+.hero-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image svg {
+  width: 100%;
+  height: 100%;
+  fill: rgb(76 74 74);
+}
+
+.hero-titulo {
+  margin: 0;
+  color: rgb(251 251 252);
+  border: none;
+  font-weight: 900;
+  z-index: 1;
+  font-size: 3.5rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #fffdfd;
+}
+
+.filters {
+  background: ;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select,
+.filters button {
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.resultados {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+  text-align: center;
+  padding: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #666;
+}
