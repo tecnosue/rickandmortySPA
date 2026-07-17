@@ -8,14 +8,14 @@ Consulta en tiempo real la API pública de Rick and Morty y permite buscar perso
 - Filtro por estado (vivo, muerto, desconocido)
 - Filtro por género (masculino, femenino, sin género)
 
-## 🚀 Características técnicas
+## Características técnicas
 
 - Peticiones AJAX asíncronas usando `fetch`
 - Encadenamiento de peticiones para obtener detalles del planeta de origen de cada personaje
 - Resultados dinámicos sin recargar la página
 - Diseño responsive y ligero
 
-## 🧠 Encadenamiento de peticiones
+## Encadenamiento de peticiones
 
 Después de obtener los personajes, la app hace una segunda petición para obtener información del planeta de origen a partir de `character.origin.url`.
 
@@ -25,3 +25,6 @@ fetch(personaje.origin.url)
   .then(origen => {
     // mostrar información del origen
   });
+```
+
+https://tecnosue.github.io/rickandmortySPA/
